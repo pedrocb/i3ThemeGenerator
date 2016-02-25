@@ -1,0 +1,5 @@
+import os
+import random
+
+colorValue = random.randint(0,360)
+os.system("python ~/wallpaper_changer/script.py " + str(colorValue) + " 100 ~/wallpaper_changer/1941277.png ~/wallpaper_changer/scripted.png")

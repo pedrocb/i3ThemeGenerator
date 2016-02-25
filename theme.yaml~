@@ -18,13 +18,13 @@ window_colors:
     text: barseparator
   unfocused:
     border: windowbg
-    background: unfocusedwindowbg
-    text: barbg
+    background: unfocusedwsbg
+    text:'barbg'
 
 colors:
   barbg: '#000000'
-  barfont: '#ff99d1'
-  barseparator: '#ff008c'
-  windowbg: '#990054'
-  focusedwsbg: '#7f1951'
-  unfocusedwindowbg: '#000000'
+  barfont: '#99b4ff'
+  barseparator: '#0043ff'
+  windowbg: '#4c7cff'
+  focusedwsbg: '#1e3f99'
+  unfocusedwsbg: '#001b66'
