@@ -1,0 +1,30 @@
+# vim: filetype=yaml
+---
+meta:
+  description: AUTOMATICALLY GENERATED THEME
+bar_colors:
+  background: 'barbg'
+  separator: 'barseparator'
+  statusline: 'barfont'
+  focused_workspace:
+    border: 'barfont'
+    background: 'focusedwsbg'
+    text: 'barfont'
+
+window_colors:
+  focused:
+    border: windowbg
+    background: windowbg
+    text: barseparator
+  unfocused:
+    border: windowbg
+    background: unfocusedwindowbg
+    text: barbg
+
+colors:
+  barbg: '#4c4916'
+  barfont: '#a0e5b8'
+  barseparator: '#44e57d'
+  windowbg: '#009935'
+  focusedwsbg: '#4c4916'
+  unfocusedwindowbg: '#162d1e'
